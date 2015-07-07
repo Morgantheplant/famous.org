@@ -1,6 +1,6 @@
 .tiles
   position:relative
-  padding:70px
+  padding: 10px
   background:#404041
   text-align:center
 
@@ -12,26 +12,28 @@
     text-align:center
 
     li
-      padding:10px 50px
+      padding: 12px 25px
       display:inline-block
+      box-sizing: border-box
       text-align:left
-      width:30%
-      max-width:450px
+      width: 32%
+      max-width: 450px
       &:not(:last-child)
-        border-right:1px solid #525355
+        border-right: 1px solid #525355
 
   h4
     color:$colors-tiles-primary
     font:$fonts-tiles-heading
-    font-size:18px
-    line-height:36px
+    font-weight: 500
+    font-size: 30px
+    line-height: 2
     white-space:nowrap
 
   p
     color:#D8D8D8
     font:$fonts-tiles-copy
-    font-size:14px
-    line-height:24px
+    font-size: 14px
+    line-height: 24px
 
 
   /**
@@ -41,7 +43,7 @@
 
     ul
       li
-        padding:10px
+        //padding:10px
 
   /**
   *  Stack the tiles

@@ -1,5 +1,5 @@
 section.content.getting-started
-  padding:100px 100px 130px 100px
+  padding: 30px 100px 50px 100px
   text-align:center
   background:white
 
@@ -38,23 +38,25 @@ section.content.getting-started
         font:$fonts-regular
         font-size:18px
         position:relative
+        margin-bottom: 48px
 
         &:not(:last-child)
-          margin-bottom:125px
+          //margin-bottom:125px
 
         &:before
           content: counter(step-counter)
           z-index: -1
           padding:14px 20px
-          border: 1px solid $colors-foreground-primary
+          border: 1px solid #a5a7aa//$colors-foreground-primary
           border-radius:50%;
           text-align: center;
           font:$fonts-regular
           font-size:24px
-          color:$colors-foreground-primary
+          color:#a5a7aa//$colors-foreground-primary
           transition: all .2s ease-out
 
         h2
+          color: rgb(39, 40, 34)
           position:absolute
           left:0
           margin-left:100px
