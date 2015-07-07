@@ -27,7 +27,9 @@
     width: 200px
     -webkit-transform: translate3d(0,0,0) // workaround for Safari
     &:hover
-      border-radius: 2px
+      background: darken($active-blue, 10)
+      color: #FFFFFF
+      opacity: 1
 
   h1
     font:$fonts-hero-heading
@@ -173,7 +175,9 @@
       text-transform: uppercase
       vertical-align: top
       &:hover
-        opacity: 0.7
+        background: darken($active-blue, 10)
+        color: #FFFFFF
+        opacity: 1
 
     .mobile
       width: 200px

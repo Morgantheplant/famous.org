@@ -37,12 +37,23 @@ p, ul, address
 a
   text-decoration: none
   color: $colors-foreground-primary
-  transition(all .2s ease-in)
+  transition(all .1s ease-in)
   transform(translateZ(1px))
+
+nav.nav-footer
+  a
+    &:hover
+      opacity: .6
+      color: #FFFFFF
+
+a.main-nav-link
+  &:hover
+    opacity: .6
 
 a:not(.btn)
   &:hover
-    opacity: .6
+    color: darken($active-blue, 10)
+
 ul
   padding-left: 30px
   list-style-type: disc
