@@ -147,31 +147,44 @@
     text-align: center
     -webkit-flex: 0 0 auto
     flex: 0 0 auto
+
     input
-      border: none
+      background: $colors-background-secondary
       border-radius: 0
+      border: none
       font-size: 12px
       height: 30px
-      width: 200px
       margin: 0
       padding: 0 10px
-      background: $colors-background-secondary
+      width: 290px
+
     button
-      font: $fonts-footer-nav
-      margin: 0
-      padding: 0 15px
+      background: $colors-foreground-primary
+      border-radius: 0
       border: none
       box-shadow: none
-      height: 30px
-      border-radius: 0
-      font-size: 12px
-      outline: none
       color: $colors-foreground-secondary
-      background: $colors-foreground-primary
-      vertical-align: top
+      font-size: 12px
+      font: $fonts-footer-nav
+      height: 30px
+      margin: 0
+      outline: none
+      padding: 0 15px
       text-transform: uppercase
+      vertical-align: top
       &:hover
-        opacity: 0.6
+        opacity: 0.7
+
+    .mobile
+      width: 200px
+
+    @media screen and (max-width: $medium-width)
+      .standard
+        display:none
+
+    @media screen and (min-width: $medium-width + 1px)
+      .mobile
+        display:none
 
   /**
   *  Resize the headings gradually as we scale the window
