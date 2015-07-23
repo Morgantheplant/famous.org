@@ -12,7 +12,7 @@
 
 3. ##Start up the server
     <div class="description">
-        <p>Once you’ve set up a new project on your local workstation, navigate to the new directory and run the dev command to boot up a development server.</p>
+        <p>Once you’ve set up a new project on your local workstation, run the dev command to boot up a development server.</p>
         <code class="example"><span>$</span> npm run dev</code>
     </div>
 
