@@ -1,19 +1,19 @@
-1. ##Install the CLI
+1. ##Clone the seed project
     <div class="description">
-        <p>If you’re an experienced developer who prefers to work with a complete toolchain, we recommend installing Famous using the command line. First, install our CLI (you’ll need <a href='https://nodejs.org/'>Node.js</a> installed):</p>
-        <code class="example"><span>$</span> npm install -g famous-cli</code>
+        <p>Navigate to the <a href="https://github.com/Famous/engine-seed">GitHub repo</a> or clone the project directly using the following command. </p>
+        <code class="example"><span>$</span> git clone https://github.com/Famous/engine-seed</code>
     </div>
 
-2. ##Create a Project
+2. ##Install the dependencies
     <div class="description">
-        <p>Once you've installed the CLI, you can easily get started by creating a new project:</p>
-        <code class="example"><span>$</span> famous create [name-of-project]</code>
+        <p>Next, use <code>cd engine-seed</code> to navigate to the directory so you can install the dependencies. </p>
+        <code class="example"><span>$</span> npm install</code>
     </div>
 
 3. ##Start up the server
     <div class="description">
-        <p>Once you’ve created a new project on your local workstation, navigate to the new directory and run the dev command to boot up a development server and install dependencies.</p>
-        <code class="example"><span>$</span> famous dev</code>
+        <p>Once you’ve set up a new project on your local workstation, navigate to the new directory and run the dev command to boot up a development server.</p>
+        <code class="example"><span>$</span> npm run dev</code>
     </div>
 
 4. ##Open the project
@@ -21,10 +21,3 @@
         <p>Then, open up the project’s <code>src/</code> folder, where you’ll ﬁnd the beginnings of some simple application code. As you make changes there, your application will reload live in your browser at <a href='http://localhost:1618/'>http://localhost:1618</a></p>
         <div class="example"></div>
     </div>
-
-5. ##Deploy to the cloud
-    <div class="description">
-        <p>When you are ready to share with the world, run the deploy command to upload your code to the Famous CDN. You will receive both a direct link to your project and an embed code for including it in other projects.</p>
-        <code class="example"><span>$</span> famous deploy</code>
-    </div>
-

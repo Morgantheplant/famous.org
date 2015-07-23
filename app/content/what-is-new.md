@@ -23,27 +23,6 @@ Famous introduces a brand new 3D physics engine that brings real life movement t
 
 <iframe src='https://famous.org/examples/index.html?block=physics&detail=false&header=false' scrolling='no' class='code-block' allowtransparency='true'></iframe>
 
-
-###Embedding Made Easy: 
-
-
-Beyond our full redesign of the Famous Engine, we've created a robust cloud platform that makes deploying Famous projects dead simple. Using the Famous CLI, you can now embed entire Famous projects into your existing websites with only two lines of code.  
-[**--> Install the CLI to get started**](http://famous.org/get-started.html)  
-
-<pre><code class="lang-bash">
-<span class="blue">$</span> famous deploy
-
-Share: 
-
-<span class="yellow">https://api-te.famo.us/codemanager/v1/containers/1abe61ec-2557-4f45-a2fd-c13d3a47b17f/share</span>
-
-Embed:
-
-<span class="blue">&lt;script src=&quot;https://assets-beta.famo.us/embed/embed.js&quot;&gt;&lt;/script&gt;
-&lt;div class=&quot;famous-container&quot; data-famous-container-identifier=&quot;1abe61ec-2557-4f45-a2fd-c13d3a47b17f&quot;&gt;&lt;/div&gt;</span>
-
-</code></pre>
-
 ###Streamlined Events:
 
 
